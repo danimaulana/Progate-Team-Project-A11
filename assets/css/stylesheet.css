@@ -17,6 +17,7 @@ header {
     height: 100px;
     background-color: white;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.16);
+    overflow: auto;
 }
 
 .header-logo {
@@ -28,7 +29,7 @@ header {
 
 .header-navmenu {
     float: left;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     display: block;
 }
@@ -44,6 +45,70 @@ header {
 .btn:hover:hover {
     background-color: rgba(235, 235, 235, 0.5);
 }
+
+/* ------------------------ heading content start---------------- */
+.heading-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 400px;
+    background-color: rgb(208 208 208 / 30%);
+}
+
+.heading-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: auto;
+    text-align: center;
+}
+
+.heading-img img {
+    width: 70%;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading-txt {
+    width: 70%;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.heading-txt h4 {
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #707070;
+}
+
+.heading-txt p {
+    font-size: 20px;
+    text-align: left;
+    color: lightslategrey;
+}
+
+.btn-heading {
+    background-color: #0AB19C;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-heading:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn-heading a {
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* ------------------------ heading content end---------------- */
 
 #Footer_Background {
     fill: rgba(249, 249, 249, 1);

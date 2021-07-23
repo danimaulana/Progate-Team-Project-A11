@@ -1,1 +1,28 @@
+* {
+    font-family: "Source Sans Pro";
+}
 
+header {
+    width: 1920px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 12px 12px rgb(134, 134, 134);
+}
+
+.header-logo {
+    float: left;
+    width: auto;
+    height: 60px;
+    padding: 20px 120px 20px 140px;
+}
+
+.header-navmenu {
+    float: left;
+}
+
+.header-navmenu a {
+    font-size: 24px;
+    color: #707070;
+    padding: 38px 45px;
+    display: inline-block;
+}

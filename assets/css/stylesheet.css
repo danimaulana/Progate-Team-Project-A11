@@ -69,9 +69,9 @@ header {
 }
 
 .heading-txt {
-    width: 70%;
     align-content: center;
     padding-top: 20px;
+    border-bottom: 15px solid #8fe0d6;
 }
 
 .heading-txt h4 {
@@ -81,6 +81,7 @@ header {
 }
 
 .heading-txt p {
+    width: 70%;
     font-size: 20px;
     text-align: left;
     color: lightslategrey;

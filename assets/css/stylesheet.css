@@ -87,29 +87,54 @@ header {
     color: lightslategrey;
 }
 
-.btn-heading {
-    background-color: #0AB19C;
-    width: 150px;
-    height: 35px;
-    border-radius: 15px;
-    text-align: center;
-    padding-top: 10px;
-    margin-top: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.btn-heading:hover {
+.btn-heading:hover,
+.btn-contact:hover {
     cursor: pointer;
     opacity: 0.8;
 }
 
-.btn-heading a {
+.btn-heading a,
+.btn-contact a {
     color: #fff;
     padding: 10px 0;
 }
 
 /* ------------------------ heading content end---------------- */
+/* -------------------contact start------------------------- */
+.contact {
+    background-color: rgb(208 208 208 / 30%);
+}
+
+.border-contact {
+    border-top: 15px solid #afafaf;
+    width: 45%;
+    float: right;
+}
+
+.contact-container {
+    padding: 80px 90px;
+}
+
+.contact-container h4 {
+    font-size: 30px;
+    color: #afafaf;
+}
+
+.contact-container h3 {
+    font-size: 40px;
+    color: #707070;
+    padding: 13px 0;
+}
+
+.contact-container p {
+    width: 70%;
+    font-size: 20px;
+    text-align: left;
+    color: lightslategrey;
+}
+
+
+/* -------------------contact end------------------------- */
 
 #Footer_Background {
     fill: rgba(249, 249, 249, 1);
